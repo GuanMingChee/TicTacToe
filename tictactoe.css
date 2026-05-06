@@ -1,0 +1,14 @@
+nav {
+    background-color: rgb(123,234,45);
+    padding: 1rem;
+}
+
+button {
+    
+    margin: 2rem;
+    margin-left: auto;
+    padding: .5rem 2rem .5rem 2rem;
+    border-radius: 10%;
+    
+    
+}
