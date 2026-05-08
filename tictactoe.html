@@ -8,7 +8,21 @@
     <title>TicTacToe</title>
 </head>
 <body>
-    <nav>Have Fun Playing TicTacToe <button>Create Player 1</button><button>Create Player 2</button><button>Reset Game</button></nav>
-    <div id="justconsole"></div>
+    <nav>Have Fun Playing TicTacToe</nav>
+        <div id="main-container">
+    <div class="card-container">
+        <form action="" id="submitplayersform">
+        <input type="text" placeholder="Player 1" id="player1"><br><input type="text" id="player2" placeholder="Player 2"><br>
+        <button type="submit">Submit</button>
+        </form>
+        <button onclick="resetGameBoard()" id="resetgame">Reset Game</button>
+    </div>
+    <div id="justconsole">
+        <table id="tictactoe-table">
+
+        </table>
+    </div>
+    </div>
+    <div id="consolelog"></div>
 </body>
 </html>
